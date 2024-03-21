@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/customers/{customerId}": {
+      "name": "/customers/{customerId}",
+      "lambdaFunction": "awssampledeployament4fcf61be",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

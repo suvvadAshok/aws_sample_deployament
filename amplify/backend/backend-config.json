@@ -1,0 +1,44 @@
+{
+  "api": {
+    "api49acc64a": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "awssampledeployament4fcf61be"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "awssampledeployament4fcf61be": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_awssampledeployament4fcf61be_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "awssampledeployament4fcf61be"
+        }
+      ]
+    },
+    "AMPLIFY_function_awssampledeployament4fcf61be_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "awssampledeployament4fcf61be"
+        }
+      ]
+    }
+  }
+}
